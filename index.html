@@ -9,15 +9,15 @@
 <body>
     <div class="weather-app">
     <header>
-        <form action="" class="search-form">
-            <input type="search" placeholder="Enter a city..." required class="search-form-input">
+        <form action="" class="search-form" id="search-form">
+            <input type="search" placeholder="Enter a city..." required class="search-form-input" id="search-form-input">
             <input type="submit" value="Search" class="search-form-button">
         </form>
     </header>
     <main>
         <div class="weather-app-data">
         <div>
-    <h1 class="weather-app-main-city"> Paris </h1>
+    <h1 class="weather-app-main-city" id="city"> Paris </h1>
     <p class="weather-app-city-details">Tuesday 14:18, broken clouds <br>
         Humidity: <strong>69% </strong>, Wind: <strong>7.2km/h</strong></p>
         </div>
@@ -34,5 +34,6 @@
           and <a href="https://weather-app-oyisilejozi.netlify.app/" target="_blank"> hosted by netlify</a> 
     </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 </html>
