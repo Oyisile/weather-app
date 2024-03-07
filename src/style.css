@@ -62,6 +62,17 @@ font-size: 88px;
 font-size: 26px;
 margin-top: 18px;
 }
+.weather-app-forecast {
+    margin-top: 20px;
+    
+}
+.weather-forecast-date {
+    font-size: 16px;
+    opacity: 0.5;
+}
+.weather-app-forecast-min {
+    opacity: 0.5;
+}
 footer {
     border-top: 1px solid #b8e1dd;
     padding: 30px 0 0 0;
